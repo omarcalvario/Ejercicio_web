@@ -1,3 +1,8 @@
+:root {
+    --color-var:#3a3550;
+    --tipo-blanca: #fff;
+}
+
 #galeria .col-lg-4 {
     padding: 25px;
     margin: 0 !important;
@@ -11,3 +16,83 @@
 #galeria img:hover {
     border: 5px solid #f7f7f7;
 }
+
+.caja {
+    background: var(--color-var);
+    border: 2px solid black;
+    margin: 1fr;
+    padding: 10px;
+    height: 995px;
+}
+
+.morado{
+    background: var(--color-var);
+}
+
+.text-bco{
+    color: var(--tipo-blanca);  
+}
+
+.menu {
+    border: soli;
+  }
+
+  .menu>div>ul {
+    border: soli;
+    
+  }
+  .menu>li {
+    list-style: none;
+  }
+  .menu>ul>li {
+   display: inline-block;
+  }
+  
+  .menu>ul>li>a {
+    color: #F2F2F2;
+    text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+    font-size: 15px;
+  }
+  
+  .menu>ul>li>a:hover {
+    background-color: #8C275F;
+  }
+  
+  .morado{
+    background-color: #3a3550;
+    height: 700px;
+  }
+  
+  #morado-claro {
+    color: #b9b4d2;
+    font-size: 18px;
+    padding-right: 200px;
+  }
+  
+  .guia {
+    border: none;
+  }
+  
+.columna-text {
+    padding-left: 00px;
+}
+
+  .text-peq {
+    color: white;
+    padding-left: 70px;
+    font-family: 'EB Garamond', serif;
+  }
+  
+  .text-elim {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 180px;
+    line-height: 160px;
+  }
+
+  .alinea-col {
+      padding-left: px;
+      vertical-align: text-bottom;
+  }
